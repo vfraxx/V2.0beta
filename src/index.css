@@ -1,0 +1,32 @@
+@import url(./assets/fonts/Akira/Akira-font.css);
+@import url(./assets/fonts/peyda.css);
+@import url(./assets//fonts/Persian/pj.css);
+@import url(./assets//fonts//Gotham/Gotham.css);
+
+/* Break Points */
+
+/* desktop: 2080,
+laptop: 1680,
+tablet: 1040,
+mobile: 696,
+mobileS: 400, */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family:'Akira Expanded', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+}
+
+
+

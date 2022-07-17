@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Persian-Regular';
+  src: url('Persian-Regular.eot');
+  src: url('Persian-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Persian-Regular.woff') format('woff'),
+       url('Persian-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

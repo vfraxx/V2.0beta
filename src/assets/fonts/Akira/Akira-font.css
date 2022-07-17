@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url('AkiraExpanded-SuperBold.eot');
+    src: url('AkiraExpanded-SuperBold.eot?#iefix') format('embedded-opentype'),
+        url('AkiraExpanded-SuperBold.woff2') format('woff2'),
+        url('AkiraExpanded-SuperBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

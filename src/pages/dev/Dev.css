@@ -1,0 +1,206 @@
+.d-bg {
+    background: #F0EAE5;
+    width: 100%;
+    height: 770vh;
+    color: #2B3034;
+    font-family: 'Peyda', sans-serif;
+    font-weight: 100;
+}
+.noskhe {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 6rem;
+    margin-bottom: 10rem;
+}
+.noskhe-co {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+}
+.span-top {
+    margin-top: 4rem;
+}
+
+.noskheimg {
+    width: 800px;
+    border-radius: 8px;
+    margin-right: -4rem;
+}
+.noskheimg2 {
+    width: 403px;
+    height: 280px;
+    border-radius: 12px;
+    transform: translate(65%,100%);
+    margin-left: -12rem;
+}
+
+.d-span {
+    font-family: 'Akira Expanded', sans-serif;
+    font-size: 1.4rem;
+    color: #2B3034;
+    opacity: 0.8;
+} 
+.mobimg {
+    width: 280px;
+    margin-right: 6rem;
+}
+.mobimg2 {
+    width: 280px;
+    transform: translate(78%,-20%);
+}
+.rev {
+    flex-flow: row-reverse;
+}
+
+.devbg {
+    width: 100%;
+    height: 20rem;
+    background: url(../../assets/devbg.png);
+    background-position: bottom;
+    background-size: 100%;
+    /* filter: blur(2px); */
+    filter: grayscale(100%);
+    transform: translate(-5%, -5%);
+}
+.dev-h1 {
+    font-family: 'Akira Expanded', sans-serif;
+    color: #F0EAE5;
+    padding-top: 4rem;
+    padding-left: 8rem;
+    font-size: 3rem;
+}
+
+.d-h1 {
+    font-weight: 300;
+}
+.d-p {
+    font-weight: 400;
+    text-align: end;
+    margin-top: 1rem;
+}
+.eng {
+    font-family: 'Gotham', sans-serif;
+    font-weight: normal;
+}
+.expad {
+    padding-left: 2rem;
+    padding-right: 8rem;
+}
+
+.nobr {
+    border-radius: 0;
+}
+.d-end {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 750;
+    
+}
+
+.d-bt {
+    font-family: 'Gotham', sans-serif;
+    font-size: 1rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background: transparent;
+    margin-left: 2rem;
+    border: 2px solid rgba(0,0,0, 0.2);
+    transition: 0.5s ease-in-out;
+    
+}
+.d-bt:hover {
+    border: 2px solid rgba(0,0,0, 0.8);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.co-rev {
+    flex-flow: column-reverse;
+    align-items: center;
+}
+
+.d-mt {
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 0;
+}
+.d-pp {
+    padding: 0;
+}
+
+.d-m {
+    margin: 0;
+}
+
+.pey {
+    font-family: 'Peyda', sans-serif;
+    font-size: 1rem;
+    padding: 0.8rem 3rem 0.8rem 3rem;
+}
+
+@media (max-width: 480px) {
+    .devbg {
+        background-repeat: no-repeat;
+        height: 7.5rem;
+        background-size: 120%;
+    }
+    .dev-h1 {
+        font-size: 1.2rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    .noskhe {
+        flex-flow: column-reverse;
+    }
+    .noskheimg2 {
+        display: none;
+
+    }
+    .noskheimg {
+        margin: 0;
+        padding: 0;
+        width: 450px;
+        border-radius: 6px;
+        align-self: center;
+        padding: 2.5rem;
+    }
+    .noskhe-co {
+        margin: 0;
+        padding: 2rem;
+
+    }
+    .expad {
+        margin: 0;
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .d-bg {
+        height: 730vh;
+    }
+    .mobimg {
+        width: 200px;
+        transform: translate(0);
+        padding: 1rem;
+
+    }
+    .mobimg2 {
+        width: 200px;
+        transform: translate(50%,-110%);
+        z-index: 30;
+        padding: 1rem;
+    }
+    .mob-con {
+        margin-top: -22rem;
+    }
+
+}
+@media (max-width: 360px) {
+    .devbg {
+        height: 8.8rem;
+    }
+    
+}

@@ -1,0 +1,103 @@
+.m-bg {
+    width: 100%;
+    height: 150vh;
+    background: #111;
+    display: flex;
+}
+
+
+.aboutme {
+    width: 480px;
+    height: 560px;
+
+}
+.meimg {
+    margin-right: 9rem;
+    margin-top: 12rem;
+
+}
+
+.metext {
+    padding-left: 20rem;
+    padding-right: 3rem;
+    margin-top: 8rem;
+
+}
+
+
+.me-h1 {
+    color: #fff;
+    font-family: "Peyda",sans-serif;
+
+}
+.me-p {
+    color: rgb(216, 216, 216);
+    font-family: "Peyda",sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: end;
+    margin-top: 1.2rem;
+}
+
+.wata {
+    font-family: 'Persian-Regular', sans-serif;
+    font-size: 6rem;
+    color: rgb(212, 212, 212);
+    rotate: 90deg;
+    transform: translate(56%, -168%);
+}
+
+@media (max-width: 640px) {
+    .m-bg {
+        flex-flow: column;
+    }
+    .me-top {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    .metext {
+        padding: 2rem;
+        margin: 0;
+        margin-top: 10rem;
+    }
+    .me-p {
+        font-size: 1.2rem;
+    }
+    .meimg {
+        margin-top: 0;
+    }
+
+
+
+}
+@media (max-width: 360px) {
+    .aboutme {
+        width: 320px;
+        height: 373px;
+    
+    }
+    .wata {
+        font-size: 4rem;
+        transform: translate(56%, -240%);
+    }
+    .m-bg {
+        height: 250vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutme {
+        width: 320px;
+        height: 373px;
+    
+    }
+    .wata {
+        font-size: 4rem;
+        transform: translate(330%, 70%);
+        width: 5rem;
+        height: 1rem;
+    }
+ 
+}
+
+

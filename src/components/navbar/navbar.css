@@ -1,0 +1,199 @@
+.atext {
+    color: #fff;
+}
+
+.hed {
+    width: 5rem;
+    height: 100vh;
+    background: transparent;    
+    padding: 0;
+    position: fixed;
+    isolation: isolate;
+
+}
+.item {
+    rotate: -90deg;
+    margin-top: 5.3rem;
+}
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+.mono {
+    margin-top: 6rem;
+    font-family: 'Persian-regular';
+    text-decoration: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    /* color: #fff; */
+}
+
+.link {
+    color: #929292;
+    position: relative;
+    text-decoration: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+  
+.link::before {
+    content: '';
+    width: 110%;
+    height: 3px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: #cf2740;
+    bottom: 6px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+.link:hover {
+    transition: 2s;
+    color: rgb(242, 242, 242);
+}
+  
+.link:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.ext {
+    margin-top: 6.3rem;
+}
+
+
+@media (max-width: 640px) {
+    .hed {
+        display: none;
+    }
+
+}
+
+.git, .insta, .twit {
+    color: #929292;
+    width: 23px;
+    height: 23px;
+    margin-top: 1rem;
+    transition: all 500ms;
+}
+.git:hover, .insta:hover, .twit:hover {
+    color: #cf2740;
+}
+.icons {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 2.5rem;   
+}
+.hover {
+    --b: 0;   /* the thickness of the line */
+    --c: #cf2740; /* the color */
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#fff 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 1s ,background-size .3s calc(.3s - var(--_s,0s));
+  }
+  .hover:hover {
+    --_p: 100%;
+    --_s: .3s;
+  }
+  
+  .tn {
+    text-decoration: none;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    display: none;
+    transition: all 1s ease-in-out;
+    padding-top: 1rem;
+    background: transparent;
+    z-index: 1000;
+  }
+
+.navicon {
+    display: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    margin-bottom: -3rem;
+    margin-left: 1rem;
+}
+.red {
+    transition: all 0.5s;
+    transform: translateY(-100vh);
+
+}
+
+@media (max-width: 640px) {
+    .nav {
+        display: block;
+        position: fixed;
+    }
+    .navicon {
+        display: block;
+        z-index: 1000;
+        position: fixed;
+    }
+    .hidden {
+        display: block;
+        color: #fff;
+
+    }
+    .nav-list {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        background: #000000e8;
+        align-items: center;
+        height: 100vh;
+        flex-flow: column;
+        margin-top: -2rem;
+        list-style: none;
+        backdrop-filter: blur(100px);
+
+    }
+    .btnn {
+        margin-bottom: -3rem;
+        top: 1rem;
+        width: 4rem;
+        background: #111;
+
+    }
+    .nav-item {
+        color: #fff;
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+        margin-right: 2rem;
+        text-decoration: none;
+    }
+    .mono {
+        font-size: 2rem;
+    }
+    .navicon {
+        margin: 1rem;
+    }
+
+
+ 
+
+
+}

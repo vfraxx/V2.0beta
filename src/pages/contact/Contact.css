@@ -1,0 +1,176 @@
+
+
+.contact {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-flow: column;
+  }
+  .ca-ic {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -0.4rem;  
+}
+  
+  .contact-h1 {
+    margin-bottom: 2rem;
+    color: rgb(220, 220, 220);
+  }
+  .contact-p {
+    color: rgb(235, 235, 235);
+    text-align: end;
+    font-family: 'Peyda', sans-serif;
+    font-family: 2rem;
+  }
+  
+  .contact2 {
+    display: flex;
+    flex-flow: column;
+    align-self: start;
+    margin-bottom: 12rem;
+    margin-left: 9rem;
+}
+.contact-bt {
+
+    margin-bottom: 20rem;
+}  
+.barcode {
+    margin-bottom: 2rem;
+  }
+  
+  
+  
+  
+  .contact-butt, .contact-buti, .contact-butw {
+    margin: 0 3rem 0 3rem;
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.1rem;
+    font-family: 'Gotham', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(45deg, transparent 5%, #E1306C -50%, #F56040 50%, #FCAF45 150%);
+    border: 0;
+    color: #000;
+    outline: transparent;
+    position: relative;
+    margin-top: 2rem;
+    transition: 500ms cubic-bezier(.694, 0, 0.335, 1);
+  }
+  .contact-butw {
+    margin: 0 3rem 0 3rem;
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.1rem;
+    font-family: 'Gotham', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(45deg, transparent 5%, #128C7E 5%);
+    border: 0;
+    color: #000;
+    outline: transparent;
+    position: relative;
+    margin-top: 2rem;
+    transition: 500ms cubic-bezier(.694, 0, 0.335, 1);
+  }
+  .contact-butt {
+    margin: 0 3rem 0 3rem;
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.1rem;
+    font-family: 'Gotham', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(45deg, transparent 5%, #0088CC 5%);
+    border: 0;
+    color: #000;
+    outline: transparent;
+    position: relative;
+    margin-top: 2rem;
+    transition: 500ms cubic-bezier(.694, 0, 0.335, 1);
+  }
+  .contact-butt:hover, .contact-buti:hover, .contact-butw:hover {
+    transform: scale(110%,110%);
+   
+  }
+
+  .contact-buti::after {
+    background: linear-gradient(90deg, rgba(131,58,180,1) -50%, rgba(253,29,29,1) 20%, rgba(252,176,69,1) 150%)
+  }
+  .contact-butw::after {
+    background: #128C7E;
+  }
+  
+  
+  .contact-buti {
+    margin: 0 3rem 0 3rem;
+  
+  }
+  .contact-butw {
+    margin: 0 3rem 0 3rem;
+  }
+ 
+  @media (min-width:760px) {
+    .mo {
+        margin-top: 15rem;    
+ 
+    }
+    .contact-buti {      
+          margin: 3rem;    
+        }
+      .contact2 {
+          margin-top: 15rem;    
+          
+      }
+
+  }
+@media (min-width:640px) {
+
+      .contact2 {
+        
+          margin-bottom: 0;
+          margin-left: 3rem;
+          
+      }
+      .contact-bt {
+        margin-top: 10rem;
+      }
+      .contact-butw {
+        margin-top: 4rem;
+      }
+
+  }
+  @media (min-width: 360px) {
+
+    .contact2 {
+      
+        margin-bottom: 0;
+        margin-left: 0;
+        padding: 1rem;
+        
+    }
+    .contact-bt {
+      margin-bottom: 2rem;
+    }
+    .contact-butw {
+      margin-top: 2rem;
+    }
+    .contact-buti {
+      margin-top: 2rem;
+    }
+    .contact-h1 {
+      font-size: 1.4rem;
+      
+    }
+    .contact-p {
+      font-size: 1rem;
+    }
+
+
+}
+
+
+  
+  
+  
+  

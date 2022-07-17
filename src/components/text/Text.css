@@ -1,0 +1,34 @@
+.dev {
+    color: rgb(242, 242, 242);
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    animation: 3s anim-lineUp ease-out;
+}
+.plus {
+    color: rgb(229, 229, 229);
+    font-size: 2.5rem;
+    margin-right: 2rem;
+}
+
+.tw {
+    display: flex;
+    z-index: 200;
+    position: absolute;
+}
+
+@media (min-width:640px) {
+    .dev {
+        font-size: 1.8rem;
+    }
+    .plus {
+        font-size: 1.8rem;    
+    }
+}
+@media (min-width:350px) {
+    .dev {
+        font-size: 1.3rem;
+    }
+    .plus {
+        font-size: 1.3rem;    
+    }
+}

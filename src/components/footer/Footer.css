@@ -1,0 +1,24 @@
+.footer {  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    width: 100vw;
+    padding: 3rem;
+    z-index: 2;
+    position: relative;
+    color: #333;
+    background-color: #101010;
+  }
+  
+  .date {
+    padding-right: 2rem;
+    display: inline-flex;
+  }
+  
+  .fotj {
+    font-family: 'Persian-Regular', sans-serif;
+    font-size: 1.3rem;
+    margin-top: -4px;
+    margin-left: 4px;
+  }

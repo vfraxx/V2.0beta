@@ -1,0 +1,120 @@
+.soon-bg {
+    background: #111;
+    
+}
+
+.gon {
+    min-width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    margin: 0;
+}
+
+.so {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.soon-p {
+  font-size: 12rem;
+  color: #000;
+  opacity: 0.7;
+  animation: blink 3s infinite;
+}
+@keyframes blink {
+    20%,
+    30%,
+    55% {
+        color: transparent;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        color: #000;
+        opacity: 0.9;
+    }
+  }
+  .s-but {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.574);
+    cursor: pointer;
+    border: none;
+    font-family: 'Gotham',sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8em 2.2em;
+    position: relative;
+    margin-top: 2rem;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  }
+  
+  .s-but:before {
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: #af1f1f;
+    opacity: 0.7;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+  }
+  
+  .s-but:hover:before {
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+  }
+  
+  .s-but span {
+    z-index: 1;
+    position: relative;
+  }
+ 
+
+  @media (max-width: 640px) {
+    .soon-p {
+      font-size: 7rem;
+      color: #000;
+    }
+    .gon {
+      margin-left: -33rem;
+    }
+  
+  
+  }
+  @media (max-width: 360px) {
+    .soon-p {
+      font-size: 5rem;
+      color: #000;
+    }
+  
+  }
+  @media (max-width: 480px) {
+    .soon-p {
+      font-size: 6rem;
+      color: #000;
+    }
+  
+  }
+  
+  
+  
+  
